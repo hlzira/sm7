@@ -1,0 +1,53 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+div{
+    padding-top: 10px;
+}
+.card{
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 2px rgba(0, 0, 0, 0.150) solid;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color:rgba(95, 112, 160, 0.8);
+}
+.form{
+    display: grid;
+    grid-template-rows: auto;
+    width: 200px;
+    gap: 15px;
+}
+.list{
+    color: white;
+}
+input{
+    font-size: 20px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.add{
+    padding: 15px 40px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
